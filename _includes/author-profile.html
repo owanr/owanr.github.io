@@ -94,26 +94,10 @@
         </li>
       {% endif %}
 
-      {% if author.xing %}
-        <li>
-          <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-xing-square" aria-hidden="true"></i><span class="label">XING</span>
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.instagram %}
         <li>
           <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span>
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.tumblr %}
-        <li>
-          <a href="https://{{ author.tumblr }}.tumblr.com" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-tumblr-square" aria-hidden="true"></i><span class="label">Tumblr</span>
           </a>
         </li>
       {% endif %}
